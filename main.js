@@ -16,4 +16,7 @@ document.addEventListener('mousemove', function(e){
 
     var rightEye = document.getElementById("two")
     rightEye.style.cssText = `transform: rotateX(${leftRotateX}deg) rotateY(${leftRotateY}deg)`
+
+    var nose = document.getElementById("nose")
+    nose.style.cssText = `transform: rotateX(${leftRotateX}deg) rotateY(${leftRotateY}deg)`;
 })
