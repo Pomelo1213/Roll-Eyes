@@ -1,169 +1,167 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.background{
-    width: 100vw;
-    height: 100vh;
-    background-color: rgb(90, 185, 224);
-    position: relative;
+.background {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(90, 185, 224);
+  position: relative;
 }
 
-.lEyeBall{
-    width: 240px;
-    height: 240px;
-    border-radius: 50%;
-    background-color: #014260;
-    transform: rotateX(0deg) rotateY(0deg);
-    transform-style: preserve-3d;
-    position: absolute;
-    top: 100px;
-    left: 600px;
-    box-shadow: -25px 20px 0px #299AAF;
+.lEyeBall {
+  width: 240px;
+  height: 240px;
+  border-radius: 50%;
+  background-color: #014260;
+  transform: rotateX(0deg) rotateY(0deg);
+  transform-style: preserve-3d;
+  position: absolute;
+  top: 100px;
+  left: 500px;
+  box-shadow: -25px 20px 0px #299AAF;
 }
 
-.lMidEye{
-    width: 180px;
-    height: 180px;
-    border-radius: 50%;
-    transform-style: preserve-3d;
-    border: 5px solid #002F4A;
-    background-color: rgb(236, 96, 49);
-    margin-top: 30px;
-    margin-left: 30px;
-    padding: 35px 35px;
-    transform: translateZ(20px);
+.lMidEye {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  transform-style: preserve-3d;
+  border: 5px solid #002F4A;
+  background-color: rgb(236, 96, 49);
+  margin-top: 30px;
+  margin-left: 30px;
+  padding: 35px 35px;
+  transform: translateZ(20px);
 }
 
-.lMidEye .lSmall{
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    background-color: rgb(230, 212, 78);
-    transform: translateZ(50px);
-    border: 2px solid #F2E1D9;
-    transform-style: preserve-3d;
-    box-shadow: -20px 10px 0px rgba(149,58,42,0.8);
+.lMidEye .lSmall {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: rgb(230, 212, 78);
+  transform: translateZ(50px);
+  border: 2px solid #F2E1D9;
+  transform-style: preserve-3d;
+  box-shadow: -20px 10px 0px rgba(149, 58, 42, 0.8);
 }
 
-.lEye{
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    background-color: white;
-    opacity: .5;
-    transform: translateZ(80px);
-    border: 2px solid #F2E1D9;
-    position: absolute;
-    top: 30px;
-    left: 30px;
+.lEye {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: white;
+  opacity: .5;
+  transform: translateZ(80px);
+  border: 2px solid #F2E1D9;
+  position: absolute;
+  top: 30px;
+  left: 30px;
 }
 
-.rEyeBall{
-    position: absolute;
-    top: 100px;
-    left: 1100px;
-    width: 240px;
-    height: 240px;
-    border-radius: 50%;
-    background-color: #014260;
-    transform: rotateX(0deg) rotateY(0deg);
-    transform-style: preserve-3d;
-    box-shadow: -25px 20px 0px #299AAF;
-}
-
-
-
-.rMidEye{
-    width: 180px;
-    height: 180px;
-    border-radius: 50%;
-    transform-style: preserve-3d;
-    border: 5px solid #002F4A;
-    background-color: rgb(236, 96, 49);
-    margin-top: 30px;
-    margin-left: 30px;
-    padding: 35px 35px;
-    transform: translateZ(20px);
-}
-
-.rMidEye .rSmall{
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    background-color: rgb(230, 212, 78);
-    transform: translateZ(50px);
-    transform-style: preserve-3d;
-    box-shadow: -20px 10px 0px rgba(149,58,42,0.8);
-}
-
-.rEye{
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    background-color: white;
-    opacity: .5;
-    transform: translateZ(80px);
-    border: 1px solid #F2E1D9;
-    position: absolute;
-    top: 30px;
-    left: 30px;
-}
-
-.nose{
-    width: 120px;
-    height: 30px;
-    position: absolute;
-    border-radius: 80px/20px;
-    top: 290px;
-    left: 910px;
-    background-color:#002F4A;
-    box-shadow: -20px 20px 0px #299AAF;
-    transform: rotateX(0deg) rotateY(0deg);
-
-}
-
-.mouth{
-    width: 740px;
-    height: 360px;
-    position: absolute;
-    top: 360px;
-    left: 600px;
-    border-radius: 100%/100%;
-    z-index: 0;
-    border: 1px solid #002F4A;
-    background-color: rgb(240, 240, 240);
-    overflow: hidden;
+.rEyeBall {
+  position: absolute;
+  top: 100px;
+  left: 1000px;
+  width: 240px;
+  height: 240px;
+  border-radius: 50%;
+  background-color: #014260;
+  transform: rotateX(0deg) rotateY(0deg);
+  transform-style: preserve-3d;
+  box-shadow: -25px 20px 0px #299AAF;
 }
 
 
-.block{
-    width: 740px;
-    height: 180px;
-    position: absolute;
-    background-color: rgb(90, 185, 224);
-    top: 360px;
-    left: 600px;
-    z-index: 1;
-    border-bottom: 1px solid #002F4A;
+
+.rMidEye {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  transform-style: preserve-3d;
+  border: 5px solid #002F4A;
+  background-color: rgb(236, 96, 49);
+  margin-top: 30px;
+  margin-left: 30px;
+  padding: 35px 35px;
+  transform: translateZ(20px);
 }
 
-.clearfix::after{
-    content: '';
-    display: block;
-    clear:both;
+.rMidEye .rSmall {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: rgb(230, 212, 78);
+  transform: translateZ(50px);
+  transform-style: preserve-3d;
+  box-shadow: -20px 10px 0px rgba(149, 58, 42, 0.8);
 }
 
-.mouth ul li{
-    width: 150px;
-    height: 360px;
-    list-style: none;
-    float: left;
-    background-color: white;
-    border: 1px solid #002F4A;
-    margin-left: 20px;
+.rEye {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: white;
+  opacity: .5;
+  transform: translateZ(80px);
+  border: 1px solid #F2E1D9;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+}
+
+.nose {
+  width: 120px;
+  height: 30px;
+  position: absolute;
+  border-radius: 80px/20px;
+  top: 290px;
+  left: 810px;
+  background-color: #002F4A;
+  box-shadow: -20px 20px 0px #299AAF;
+  transform: rotateX(0deg) rotateY(0deg);
+
+}
+
+.mouth {
+  width: 740px;
+  height: 360px;
+  position: absolute;
+  top: 360px;
+  left: 500px;
+  border-radius: 100%/100%;
+  z-index: 0;
+  border: 1px solid #002F4A;
+  background-color: rgb(240, 240, 240);
+  overflow: hidden;
 }
 
 
+.block {
+  width: 740px;
+  height: 180px;
+  position: absolute;
+  background-color: rgb(90, 185, 224);
+  top: 360px;
+  left: 500px;
+  z-index: 1;
+  border-bottom: 1px solid #002F4A;
+}
+
+.clearfix::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.mouth ul li {
+  width: 150px;
+  height: 360px;
+  list-style: none;
+  float: left;
+  background-color: white;
+  border: 1px solid #002F4A;
+  margin-left: 20px;
+}

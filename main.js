@@ -1,14 +1,12 @@
-document.addEventListener('mousemove', function(e){
+document.addEventListener('mousemove', function (e) {
     var mouseX = e.clientX
     var mouseY = e.clientY
 
-    var leftE = {x: 700, y: 200}
-    var rightE = {x: 1200, y: 200}
+    var leftE = { x: 700, y: 200 }
+    var rightE = { x: 1200, y: 200 }
 
     var leftRotateY = (mouseX - leftE.x) / 70
     var leftRotateX = (mouseY - leftE.y) / 70
-    //console.log(mouseY+" "+leftE.y)
-    console.log(leftRotateX)
 
     leftRotateX = -leftRotateX
     var leftEye = document.getElementById("one")
